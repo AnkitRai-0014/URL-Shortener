@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Shortener Microservice</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      input {
+        padding: 8px;
+        margin-right: 10px;
+        width: 300px;
+      }
+      button {
+        padding: 8px 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>URL Shortener Microservice</h1>
+    <p>Example usage:</p>
+    <code>POST [your-site-url]/api/shorturl</code>
+
+    <p>Form:</p>
+    <form action="/api/shorturl" method="POST">
+      <input type="url" name="url" placeholder="https://example.com" required />
+      <button type="submit">Shorten</button>
+    </form>
+  </body>
+</html>

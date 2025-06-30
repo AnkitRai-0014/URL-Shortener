@@ -19,7 +19,7 @@ const path = require("path");
 
 // Serve the HTML page
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "/views/index.html"));
+  res.sendFile(path.join(__dirname, "/Views/index.html"));
 });
 
 // app.get("/", (req, res) => {
